@@ -1,0 +1,15 @@
+.large-hero {
+    vertical-align: center;
+    text-align: center;
+    color: #fff;
+    padding: 5rem 0;
+    position: absolute;
+}
+.large-hero-section{
+    max-width: 100%;
+    z-index: 9999;
+    height: 100%;
+    position: relative;
+    /* background: url("../../images/body/avatar.jpg") no-repeat fixed center / cover; */
+    /* background-size: cover; */
+}
