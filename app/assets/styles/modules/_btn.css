@@ -17,14 +17,20 @@
 .btn__green {
     color: #FFF;
     background-color: #61ce70;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 .btn__green:hover {
     color: #FFF;
     background-color: #EE2A5F;
     transition: all .5s ease-in-out;
 }
-.btn__white {
-    color: $blue;
-    background-color: $white;
-    border-color: $white;
+.btn__light {
+    color: #FFF;
+    background-color: #AAA;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.btn__light:hover {
+    color: #FFF;
+    background-color: #000;
+    transition: all .5s ease-in-out;
 }

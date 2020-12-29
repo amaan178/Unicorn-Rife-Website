@@ -1,0 +1,19 @@
+#statement {
+    background: url("../../images/body/bodyImage.jpg") no-repeat fixed center / cover; /* / cover wont work in safari and is called as "Parallax Image" */
+    background-size: cover;
+}
+#statement .content-box-lg {
+    background: rgba(0, 0, 0, 0.3);
+}
+.tech-statement h3 {
+    color: #FFF;
+    width: 80%;
+    font-size: 28px;
+    line-height: 45px;
+    margin: 0 auto;
+}
+.tech-statement p {
+    color: #FFF;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 10px;

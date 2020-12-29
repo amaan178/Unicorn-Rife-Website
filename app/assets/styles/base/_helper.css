@@ -10,12 +10,17 @@
 .d-block {
     display: block;
 }
+.content-box-lg {
+    padding: 120px 0;    
+}
+.content-box-md {
+    padding: 105px 0;    
+}
+.content-box-sm {
+    padding: 90px 0;    
+}
 .section {
     padding: 80px 0;
-    
-    &-bg-light{
-        background-color: $lightGrey;
-    }
     &-bg-primary{
         background-color: $blue;
         color: $white;
@@ -23,6 +28,10 @@
     &.section-sm{
         padding: 10px 0;
     }
+}
+.section-bg-light{
+    padding: 80px 0;
+    background-color: $lightGrey;
 }
 .p-0 {
     padding: 0;
@@ -36,6 +45,47 @@
 .pb-80 {
     padding-bottom: 80px;
 }
+.p-4 {
+    padding: 4rem;
+}
 .relative {
     position: relative;
+}
+.secondary-heading {
+    font-size: 7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+.primary-heading {
+    font-size: 5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #6EC1E4;
+}
+.whiteSubTitle {
+    font-size: 1rem;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+.greySubTitle {
+    color: #AAA;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+.secondary-text {
+    font-size: 2rem;
+    color: #fff;
+    margin: 1rem 0;
+}
+.primary-text {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 1rem 0;
+}
+.medium-width {
+    width: 765px;
 }
