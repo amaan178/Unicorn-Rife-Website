@@ -1,0 +1,30 @@
+.btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 10px;
+    font-weight: 500;
+    padding: 2rem 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2rem 0;
+    letter-spacing: .5rem;
+    
+    @mixin largeScreen {
+        padding: 12px 24px;
+        font-size: 0.9375rem;
+    }
+}
+.btn__green {
+    color: #FFF;
+    background-color: #61ce70;
+}
+.btn__green:hover {
+    color: #FFF;
+    background-color: #EE2A5F;
+    transition: all .5s ease-in-out;
+}
+.btn__white {
+    color: $blue;
+    background-color: $white;
+    border-color: $white;
+}

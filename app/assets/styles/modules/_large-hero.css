@@ -2,14 +2,30 @@
     vertical-align: center;
     text-align: center;
     color: #fff;
-    padding: 5rem 0;
-    position: absolute;
+    position: relative;
 }
 .large-hero-section{
     max-width: 100%;
     z-index: 9999;
-    height: 100%;
-    position: relative;
+    height: 80%;
     /* background: url("../../images/body/avatar.jpg") no-repeat fixed center / cover; */
     /* background-size: cover; */
+}
+.large-hero-info {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+}
+.large-hero-subTitle {
+    font-size: 2rem;
+    letter-spacing: 1rem;
+}
+.large-hero-heading {
+    font-size: 9rem;
+    font-weight: 500;
+}
+.large-hero-text {
+    font-size: 2rem;
+    margin: 0;
 }
